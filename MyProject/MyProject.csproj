@@ -3,10 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyProject.Contentment_Has_A_Program.Car.Car__Main</StartupObject>
+	  <StartupObject>MyProject.Abstract_and_Interface.Qus_2.ABS_Main</StartupObject>
 		  
 
 	
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract and Interface\Qus_1\" />
+  </ItemGroup>
 
 </Project>
