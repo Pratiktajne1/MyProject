@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,5 +15,5 @@ namespace MyProject.Claculation
 
             Claculator cl = new Claculator(num1,num2);
         }
-    }
-}
+    }*/
+//}

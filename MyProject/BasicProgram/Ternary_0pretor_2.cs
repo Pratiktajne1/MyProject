@@ -6,7 +6,7 @@ namespace MyProject.BasicProgram
 {
     class Ternary_0pretor_2
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             int num;
             String result;
@@ -16,6 +16,6 @@ namespace MyProject.BasicProgram
 
             result = num > 0 ? "Positive number" : num < 0 ? "Negative number" : "number is zero";
             Console.WriteLine(result);
-        }
+        }*/
     }
 }

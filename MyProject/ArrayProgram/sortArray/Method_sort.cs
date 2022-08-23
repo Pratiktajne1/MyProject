@@ -8,17 +8,17 @@ namespace MyProject.ArrayProgram.sortArray
     {
         public int[] Display(int[] a)
         {
-            int s = 0;
+            int s ;
             for(int i=0;i<a.Length-1;i++)
             {
-                int k = i;
-                for(int j=1;j<a.Length;j++)
+               
+                for(int j=i+1;j<a.Length;j++)
                 {
-                    if(a[k]<a[j])
+                    if(a[i]>a[j])
                     {
                         s = a[j];
-                        a[j] = a[k];
-                        a[k] = s;
+                        a[j] = a[i];
+                        a[i] = s;
                     }
 
                 }
