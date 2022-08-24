@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyProject.String_12.Revers_Sentence.Revers_sentence_Main</StartupObject>
+	  <StartupObject>MyProject.Program_1</StartupObject>
 		  
 
 	

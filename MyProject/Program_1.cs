@@ -6,24 +6,24 @@ namespace MyProject
     {
         static void Main(string[] args)
         {
-            int a, b, c;
-            a = int.Parse(Console.ReadLine());
-
-            b = int.Parse(Console.ReadLine());
-            c = int.Parse(Console.ReadLine());
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int g = 0;
+            for(int i=2;i<=a || i<=b;i++)
+            {
+                if(a%i==0 && b%i==0)
+                {
+                    
+                    g++;
+                }
+            }
+            if(g==0)
+            {
+                Console.WriteLine("coprime");
+            }
             
-            if(a>=b && a>=c )
-            {
-                Console.WriteLine(a);
-            }
-            else if(b>=a && b>=c)
-            {
-                Console.WriteLine(b);
-            }
-            else
-            {
-                Console.WriteLine(c);
-            }
+          
+
         }
     }
 }
