@@ -3,10 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyProject.Program_1</StartupObject>
+	  <StartupObject>MyProject.Tuple_Demo.Method_1.Method__1_Main</StartupObject>
 		  
 
 	
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Tuple Demo\Method_2\" />
+  </ItemGroup>
 
 </Project>
